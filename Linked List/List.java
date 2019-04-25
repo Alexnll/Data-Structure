@@ -9,10 +9,10 @@ class List{
         return (first == null);
     }
 
-    public void insertFirst(Link thing){
-        Link newLink = first;
-        first = thing;
-        thing.next = newLink;
+    public void insertFirst(int data){
+        Link newLink = new Link(data);
+        newLink.next = first;
+        first = newLink;
     }
 
     public Link deleteFirst(){

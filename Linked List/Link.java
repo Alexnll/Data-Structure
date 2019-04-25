@@ -6,7 +6,7 @@ class Link{
         this.data = data;
     }
 
-    public showLink(){
+    public void showLink(){
         System.out.println(data);
     }
 }
