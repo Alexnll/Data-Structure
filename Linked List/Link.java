@@ -7,6 +7,6 @@ class Link{
     }
 
     public showLink(){
-        System.out.print(data);
+        System.out.println(data);
     }
 }
