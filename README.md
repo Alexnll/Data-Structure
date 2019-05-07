@@ -8,6 +8,10 @@
 ### Stack
 ##### The simplest Stack (implemented by Array)
 - StackA.java
+### Tree
+##### Binary Search Tree
+- Node.java
+- Tree.java
 ### Graph
 ##### The simplest Graph
 - Vertex.java
